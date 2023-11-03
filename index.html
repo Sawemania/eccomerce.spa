@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce Store</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Ecommerce Store</h1>
+      <div class="cart">
+        <ion-icon name="cart-outline" id="cart-icon"></ion-icon>
+        <p class="cart-count">0</p>
+        <div class="cart-display hidden" id="cart-display">
+            <h4>Cart</h4>
+            <ul id="cart-output">
+
+            </ul>
+            <button>Checkout</button>
+        </div>
+        
+      </div>
+      <div class="user">
+        <ion-icon name="person-outline"></ion-icon>
+      </div>
+    </header>
+    <h2>Products</h2>
+    <section id="products"></section>
+    <script src="main.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
